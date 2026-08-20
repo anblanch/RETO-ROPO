@@ -15,6 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RETO · Cuaderno de aplicaciones",
   description: "Fichas y exportación RT0001 para RETO.",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
