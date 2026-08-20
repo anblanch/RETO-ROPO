@@ -1,0 +1,32 @@
+.help,
+.saved > p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.saved-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.hint {
+  background: #eef5cc;
+  border: 1px solid #d5df9d;
+  padding: 16px;
+  margin: 18px 0;
+  font-size: 13px;
+}
+
+.hint ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.hint li {
+  border: 0;
+  padding: 4px 0;
+  list-style: disc;
+}
